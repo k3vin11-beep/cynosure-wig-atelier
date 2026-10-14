@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cynosure Wig Atelier | Wig Installations</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4ede3;--card:#fbf7f1;--ink:#22110a;--muted:#6e5a49;--brand:#4f3421;--accent:#7a6047;--tan:#ac9478;--line:#d1c1aa;--on-brand:#f4ede3;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#22110a;--card:#2e1b12;--ink:#f1e6d6;--muted:#c0ad96;--brand:#d1c1aa;--accent:#ac9478;--tan:#ac9478;--line:#4f3421;--on-brand:#22110a}}
+:root[data-theme="dark"]{--bg:#22110a;--card:#2e1b12;--ink:#f1e6d6;--muted:#c0ad96;--brand:#d1c1aa;--accent:#ac9478;--tan:#ac9478;--line:#4f3421;--on-brand:#22110a}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.65}
+h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;line-height:1.1;margin:0 0 .4em;letter-spacing:.01em}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+nav b{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.35rem;color:var(--brand)}
+.btn{display:inline-block;background:var(--brand);color:var(--on-brand);padding:12px 24px;border-radius:999px;text-decoration:none;font-weight:600}
+.btn.ghost{background:none;color:var(--ink);border:1px solid var(--tan)}
+.hero{display:grid;gap:28px;align-items:center;padding:28px 0 56px}
+@media(min-width:760px){.hero{grid-template-columns:1.1fr .9fr}}
+.hero h1{font-size:clamp(2.6rem,9vw,4.6rem);text-transform:uppercase}
+.hero p{color:var(--muted);max-width:440px;margin:0 0 24px}
+.hero .btn+.btn{margin-left:8px}
+.hero img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center top;border-radius:48% 52% 46% 54%/38% 42% 58% 62%}
+section{padding:44px 0}
+h2{font-size:2.2rem;text-align:center;text-transform:uppercase}
+.sub{text-align:center;color:var(--muted);margin:-.1em 0 26px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px}
+.card h3{font-size:1.4rem}
+.card p{margin:0 0 10px;color:var(--muted);font-size:.95rem}
+.price{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.9rem;color:var(--accent);font-weight:600}
+.gal{grid-template-columns:repeat(2,1fr)}
+.gal img:last-child:nth-child(odd){grid-column:1/-1;aspect-ratio:4/3}
+@media(min-width:760px){.gal{grid-template-columns:repeat(5,1fr)}.gal img:last-child:nth-child(odd){grid-column:auto;aspect-ratio:3/4}}
+.gal img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:50% 50% 18px 18px/38% 38% 18px 18px;display:block}
+.policy{list-style:none;padding:0;margin:0 auto;max-width:520px}
+.policy li{padding:12px 0 12px 28px;border-bottom:1px solid var(--line);position:relative}
+.policy li::before{content:"";position:absolute;left:4px;top:1.15em;width:8px;height:8px;border-radius:50%;background:var(--tan)}
+.cta{text-align:center;background:var(--brand);color:var(--on-brand);border-radius:28px;padding:48px 20px}
+.cta p{margin:0 0 6px}
+.cta .btn{background:var(--bg);color:var(--ink);margin:14px 0 6px}
+footer{text-align:center;color:var(--muted);padding:30px 0;font-size:.9rem}
+.gal img{cursor:zoom-in;transition:transform .2s}.gal img:hover{transform:scale(1.02)}
+.builder{background:var(--card);color:var(--ink);border-radius:20px;padding:22px;text-align:left;max-width:560px;margin:22px auto 0}
+.builder fieldset{border:0;padding:0;margin:0 0 14px}
+.builder legend{font-weight:600;margin-bottom:8px;padding:0}
+.opt{display:flex;align-items:center;gap:10px;padding:11px 12px;border:1px solid var(--line);border-radius:12px;margin-bottom:8px;cursor:pointer}
+.opt span{flex:1}
+.opt input{accent-color:var(--brand);width:18px;height:18px}
+.opt:has(input:checked){border-color:var(--brand);background:var(--bg)}
+.row{display:grid;gap:10px;grid-template-columns:1fr 1fr}
+.row label{font-size:.85rem;color:var(--muted);display:grid;gap:4px}
+.row label:first-child{grid-column:1/-1}
+.row input{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px;min-width:0}
+.total{display:flex;justify-content:space-between;align-items:baseline;margin:16px 0 4px;font-size:1.1rem}
+.total b{font-family:'Cormorant Garamond',Georgia,serif;font-size:2rem;color:var(--accent)}
+.cta .builder .btn{background:var(--brand);color:var(--on-brand);display:block;text-align:center;margin:10px 0 0}
+.cta .builder .btn[aria-disabled="true"]{opacity:.5}
+.note{font-size:.8rem;color:var(--muted);margin:10px 0 0}
+.lb{position:fixed;inset:0;z-index:50;background:rgba(20,10,5,.93);display:flex;align-items:center;justify-content:center;padding:calc(env(safe-area-inset-top,0px) + 56px) 56px calc(env(safe-area-inset-bottom,0px) + 24px)}
+.lb[hidden]{display:none}
+.lb img{max-width:100%;max-height:100%;border-radius:14px;object-fit:contain}
+.lb button{position:absolute;background:rgba(255,255,255,.16);color:#fff;border:0;width:44px;height:44px;border-radius:50%;font-size:1.6rem;cursor:pointer}
+.lb .x{top:calc(env(safe-area-inset-top,0px) + 10px);right:12px}
+.lb .pv{left:8px;top:50%;margin-top:-22px}.lb .nx{right:8px;top:50%;margin-top:-22px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><b>Cynosure Wig Atelier</b><a class="btn" href="#book">Book now</a></nav>
+
+<header class="hero">
+<div>
+<h1>Flawless installations. Timeless confidence.</h1>
+<p>Neat, natural-looking wig installs by appointment. Bring your wig, leave feeling like yourself, only better.</p>
+<a class="btn" href="#book">Book an install</a><a class="btn ghost" href="#services">Services</a>
+</div>
+<img src="profile.jpeg" alt="Cynosure Wig Atelier wig installation">
+</header>
+
+<section id="services">
+<h2>Our services</h2>
+<p class="sub">Simple pricing, no surprises.</p>
+<div class="grid">
+<div class="card"><h3>Basic installation</h3><p>Clean, secure fit with a natural-looking hairline.</p><span class="price">R150</span></div>
+<div class="card"><h3>Installation + styling</h3><p>Full install finished with your choice of style.</p><span class="price">R220</span></div>
+<div class="card"><h3>Wig lines</h3><p>Defined, realistic wig lines for a seamless blend.</p><span class="price">R60</span></div>
+<div class="card"><h3>Wash &amp; treatment</h3><p>Deep clean and treatment to refresh your wig.</p><span class="price">R100</span></div>
+</div>
+</section>
+
+<section>
+<h2>Recent work</h2>
+<p class="sub">Tap a photo to see it bigger.</p>
+<div class="grid gal">
+<img src="model-1.jpeg" alt="Wig installation, client 1" loading="lazy">
+<img src="model-2.jpeg" alt="Wig installation, client 2" loading="lazy">
+<img src="model-3.jpeg" alt="Wig installation, client 3" loading="lazy">
+<img src="model-4.jpeg" alt="Wig installation, client 4" loading="lazy">
+<img src="model-5.jpeg" alt="Wig installation, client 5" loading="lazy">
+</div>
+</section>
+
+<section>
+<h2>Before you book</h2>
+<p class="sub">A few simple rules to keep things running smoothly.</p>
+<ul class="policy">
+<li>Please arrive on time. Arriving 30 minutes late results in cancellation.</li>
+<li>No extra people allowed.</li>
+<li>Please arrive with a clean wig.</li>
+</ul>
+</section>
+
+<section id="book">
+<div class="cta">
+<h2>Book now</h2>
+<p>Pick your services, choose a time and send it straight to WhatsApp.</p>
+<p>Appointment bookings only &middot; Turfloop (Gate 1) / Louis Trichardt</p>
+<div class="builder">
+<fieldset><legend>Pick your services</legend>
+<label class="opt"><input type="checkbox" data-n="Basic installation" data-p="150"><span>Basic installation</span><b>R150</b></label>
+<label class="opt"><input type="checkbox" data-n="Installation + styling" data-p="220"><span>Installation + styling</span><b>R220</b></label>
+<label class="opt"><input type="checkbox" data-n="Wig lines" data-p="60"><span>Wig lines</span><b>R60</b></label>
+<label class="opt"><input type="checkbox" data-n="Wash &amp; treatment" data-p="100"><span>Wash &amp; treatment</span><b>R100</b></label>
+</fieldset>
+<div class="row">
+<label>Your name<input id="nm" type="text" autocomplete="name"></label>
+<label>Preferred date<input id="dt" type="date"></label>
+<label>Preferred time<input id="tm" type="time"></label>
+</div>
+<div class="total"><span>Estimated total</span><b id="tot">R0</b></div>
+<a id="wa" class="btn" href="#book" aria-disabled="true">Select a service</a>
+<p class="note">Arriving 30 minutes late cancels your appointment. Please come alone and bring a clean wig.</p>
+</div>
+</div>
+</section>
+
+<footer>&copy; Cynosure Wig Atelier</footer>
+<div id="lb" class="lb" hidden><button class="x" aria-label="Close">&times;</button><button class="pv" aria-label="Previous">&lsaquo;</button><img alt=""><button class="nx" aria-label="Next">&rsaquo;</button></div>
+<script>
+(function(){
+var $=function(s,r){return (r||document).querySelector(s)};
+var imgs=[].slice.call(document.querySelectorAll('.gal img')),lb=$('#lb'),lbi=$('img',lb),i=0;
+function show(n){i=(n+imgs.length)%imgs.length;lbi.src=imgs[i].src;lbi.alt=imgs[i].alt}
+function openLb(n){show(n);lb.hidden=false;document.body.style.overflow='hidden'}
+function closeLb(){lb.hidden=true;document.body.style.overflow=''}
+imgs.forEach(function(m,n){m.tabIndex=0;m.addEventListener('click',function(){openLb(n)});m.addEventListener('keydown',function(e){if(e.key==='Enter')openLb(n)})});
+$('.x',lb).onclick=closeLb;$('.pv',lb).onclick=function(){show(i-1)};$('.nx',lb).onclick=function(){show(i+1)};
+lb.addEventListener('click',function(e){if(e.target===lb)closeLb()});
+document.addEventListener('keydown',function(e){if(lb.hidden)return;if(e.key==='Escape')closeLb();if(e.key==='ArrowLeft')show(i-1);if(e.key==='ArrowRight')show(i+1)});
+var sx=0;lb.addEventListener('touchstart',function(e){sx=e.touches[0].clientX},{passive:true});
+lb.addEventListener('touchend',function(e){var d=e.changedTouches[0].clientX-sx;if(Math.abs(d)>50)show(i+(d<0?1:-1))});
+var opts=[].slice.call(document.querySelectorAll('.opt input')),wa=$('#wa'),dt=$('#dt'),tm=$('#tm'),t=new Date();
+dt.min=t.getFullYear()+'-'+('0'+(t.getMonth()+1)).slice(-2)+'-'+('0'+t.getDate()).slice(-2);
+function upd(){
+var sel=opts.filter(function(o){return o.checked}),tot=sel.reduce(function(a,o){return a+ +o.dataset.p},0);
+$('#tot').textContent='R'+tot;
+if(!sel.length){wa.setAttribute('aria-disabled','true');wa.textContent='Select a service';wa.href='#book';return}
+var nm=$('#nm').value.trim(),m='Hi'+(nm?", I'm "+nm:'')+". I'd like to book: "+sel.map(function(o){return o.dataset.n}).join(', ')+' (R'+tot+' total).';
+if(dt.value)m+=' Preferred date: '+dt.value+(tm.value?' at '+tm.value:'')+'.';
+wa.removeAttribute('aria-disabled');wa.textContent='Send booking on WhatsApp';
+wa.href='https://wa.me/27672400894?text='+encodeURIComponent(m)}
+$('.builder').addEventListener('input',upd);
+wa.addEventListener('click',function(e){if(wa.getAttribute('aria-disabled')==='true')e.preventDefault()});
+upd();
+})();
+</script>
+</div>
+</body>
+</html>
